@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="320" viewBox="0 0 900 320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0e15;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1a25;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#0a1018;stop-opacity:0.4" />
+    </linearGradient>
+    <filter id="blur1">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="25" />
+    </filter>
+  </defs>
+  
+  <rect width="900" height="320" fill="url(#bg)" rx="10"/>
+  <circle cx="450" cy="160" r="80" fill="#ff5f57" opacity="0.03" filter="url(#blur1)"/>
+  
+  <rect x="12" y="12" width="876" height="296" rx="8" fill="url(#glass)" stroke="#1a3040" stroke-width="1.5"/>
+  
+  <!-- Title bar -->
+  <rect x="12" y="12" width="876" height="28" rx="8" fill="#0a1218" opacity="0.9"/>
+  <rect x="12" y="32" width="876" height="8" fill="#0a1218" opacity="0.9"/>
+  <text x="28" y="31" font-family="'Courier New', monospace" font-size="9" fill="#ff5f57" font-weight="bold">✦ PROJECT_05.exe</text>
+  
+  <rect x="830" y="22" width="14" height="14" rx="2" fill="none" stroke="#2a4a5a" stroke-width="1"/>
+  <text x="834" y="33" font-family="'Courier New', monospace" font-size="10" fill="#2a4a5a">−</text>
+  <rect x="850" y="22" width="14" height="14" rx="2" fill="none" stroke="#2a4a5a" stroke-width="1"/>
+  <rect x="870" y="22" width="14" height="14" rx="2" fill="none" stroke="#ff5f57" stroke-width="1"/>
+  <text x="873" y="33" font-family="'Courier New', monospace" font-size="10" fill="#ff5f57">×</text>
+  
+  <text x="32" y="65" font-family="'Courier New', monospace" font-size="9" fill="#5a8a9a" font-weight="bold" letter-spacing="1">SECURITY · C PROGRAMMING · CRYPTOGRAPHY</text>
+  
+  <text x="32" y="115" font-family="'Segoe UI', Arial, sans-serif" font-size="38" fill="#e0f0f8" font-weight="900" letter-spacing="-0.5">FILE ENCRYPTION</text>
+  <text x="32" y="148" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#8ab0c8" font-weight="600">XOR Decryption Engine</text>
+  
+  <!-- Lock icon area -->
+  <rect x="700" y="70" width="160" height="100" rx="6" fill="#080c14" stroke="#1a2a3a" stroke-width="1"/>
+  <text x="710" y="88" font-family="'Courier New', monospace" font-size="8" fill="#3a5a6a">cipher.view / XOR</text>
+  <text x="720" y="115" font-family="'Courier New', monospace" font-size="11" fill="#00d4aa">01001000 01101001</text>
+  <text x="720" y="132" font-family="'Courier New', monospace" font-size="11" fill="#ff5f57">⊕ key = encrypted</text>
+  <text x="720" y="149" font-family="'Courier New', monospace" font-size="11" fill="#00d4aa">01001000 01101001</text>
+  <text x="720" y="163" font-family="'Courier New', monospace" font-size="8" fill="#2a5a6a">REVERSIBLE OPERATION</text>
+  
+  <text x="32" y="185" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8aa0b0">A C program performing file encryption &amp; decryption using XOR technique.</text>
+  <text x="32" y="205" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8aa0b0">Reads input, applies single-character key, writes encrypted output.</text>
+  <text x="32" y="225" font-family="'Courier New', monospace" font-size="11" fill="#5a7a8a">Same process for encryption &amp; decryption — elegant symmetry.</text>
+  
+  <!-- Tech badges -->
+  <rect x="32" y="250" width="35" height="24" rx="4" fill="none" stroke="#ff5f57" stroke-width="1.5"/>
+  <text x="46" y="266" font-family="'Courier New', monospace" font-size="10" fill="#ff5f57">C</text>
+  <rect x="77" y="250" width="55" height="24" rx="4" fill="none" stroke="#00d4aa" stroke-width="1.5"/>
+  <text x="91" y="266" font-family="'Courier New', monospace" font-size="10" fill="#00d4aa">XOR</text>
+  <rect x="142" y="250" width="90" height="24" rx="4" fill="none" stroke="#00b4d8" stroke-width="1.5"/>
+  <text x="150" y="266" font-family="'Courier New', monospace" font-size="10" fill="#00b4d8">File I/O</text>
+  
+  <line x1="32" y1="287" x2="868" y2="287" stroke="#1a2a3a" stroke-width="0.5"/>
+  <text x="32" y="305" font-family="'Courier New', monospace" font-size="8" fill="#3a5a6a">ENCRYPT → PROCESS → DECRYPT</text>
+  <text x="790" y="305" font-family="'Courier New', monospace" font-size="9" fill="#ff5f57" font-weight="bold">OPEN REPO ↗</text>
+</svg>

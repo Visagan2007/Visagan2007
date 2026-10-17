@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0d1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0e1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a2332;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:0.3" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4aa" />
+      <stop offset="50%" style="stop-color:#00b4d8" />
+      <stop offset="100%" style="stop-color:#7c3aed" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d4aa;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.05" />
+    </linearGradient>
+    <filter id="blur1">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="40" />
+    </filter>
+    <filter id="shadow1">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00d4aa" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="400" fill="url(#bg)" rx="12"/>
+  
+  <!-- Ambient glow orbs -->
+  <circle cx="150" cy="100" r="120" fill="#00d4aa" opacity="0.06" filter="url(#blur1)"/>
+  <circle cx="750" cy="300" r="150" fill="#7c3aed" opacity="0.06" filter="url(#blur1)"/>
+  <circle cx="450" cy="200" r="100" fill="#00b4d8" opacity="0.04" filter="url(#blur1)"/>
+  
+  <!-- Grid pattern -->
+  <g opacity="0.03" stroke="#00d4aa" stroke-width="0.5">
+    <line x1="0" y1="50" x2="900" y2="50"/>
+    <line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="150" x2="900" y2="150"/>
+    <line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="250" x2="900" y2="250"/>
+    <line x1="0" y1="300" x2="900" y2="300"/>
+    <line x1="0" y1="350" x2="900" y2="350"/>
+    <line x1="100" y1="0" x2="100" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="400"/>
+    <line x1="300" y1="0" x2="300" y2="400"/>
+    <line x1="400" y1="0" x2="400" y2="400"/>
+    <line x1="500" y1="0" x2="500" y2="400"/>
+    <line x1="600" y1="0" x2="600" y2="400"/>
+    <line x1="700" y1="0" x2="700" y2="400"/>
+    <line x1="800" y1="0" x2="800" y2="400"/>
+  </g>
+  
+  <!-- Main glass panel -->
+  <rect x="30" y="25" width="840" height="350" rx="10" fill="url(#glass)" stroke="#1e3a4f" stroke-width="1.5"/>
+  <rect x="30" y="25" width="840" height="350" rx="10" fill="url(#glow)"/>
+  
+  <!-- Title bar -->
+  <rect x="30" y="25" width="840" height="32" rx="10" fill="#0d1520" opacity="0.8"/>
+  <rect x="30" y="45" width="840" height="12" fill="#0d1520" opacity="0.8"/>
+  <circle cx="52" cy="41" r="5" fill="#ff5f57"/>
+  <circle cx="72" cy="41" r="5" fill="#febc2e"/>
+  <circle cx="92" cy="41" r="5" fill="#28c840"/>
+  <text x="140" y="45" font-family="'Courier New', monospace" font-size="11" fill="#4a6a7a" font-weight="bold">visagan2007 / personal_system</text>
+  <text x="780" y="45" font-family="'Courier New', monospace" font-size="10" fill="#2a4a5a">v2.0</text>
+  
+  <!-- Category label -->
+  <text x="60" y="95" font-family="'Courier New', monospace" font-size="10" fill="#00d4aa" letter-spacing="3" font-weight="bold">WEB · MOBILE · SECURITY · HACKATHONS</text>
+  
+  <!-- Name - Bold Neo-Brutalist -->
+  <text x="60" y="155" font-family="'Segoe UI', Arial, sans-serif" font-size="62" fill="#e8f0f8" font-weight="900" letter-spacing="-1">Visagan G.</text>
+  
+  <!-- Username -->
+  <text x="62" y="185" font-family="'Courier New', monospace" font-size="14" fill="#4a8a9a">@Visagan2007 / he/him</text>
+  
+  <!-- Tagline -->
+  <text x="60" y="225" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#c8dce8" font-weight="700">Code it. Ship it. Break it. Fix it.</text>
+  <text x="60" y="252" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#6a8a9a">Full-stack builder, hackathon hacker &amp; open-source explorer</text>
+  
+  <!-- Nav buttons - Neo Brutalist style -->
+  <rect x="60" y="275" width="130" height="34" rx="4" fill="none" stroke="#00d4aa" stroke-width="2"/>
+  <text x="88" y="296" font-family="'Courier New', monospace" font-size="11" fill="#00d4aa" font-weight="bold">PROJECTS.exe</text>
+  
+  <rect x="205" y="275" width="120" height="34" rx="4" fill="none" stroke="#00b4d8" stroke-width="2"/>
+  <text x="228" y="296" font-family="'Courier New', monospace" font-size="11" fill="#00b4d8" font-weight="bold">SKILLS.dll</text>
+  
+  <rect x="340" y="275" width="160" height="34" rx="4" fill="none" stroke="#7c3aed" stroke-width="2"/>
+  <text x="350" y="296" font-family="'Courier New', monospace" font-size="11" fill="#7c3aed" font-weight="bold">✦ STAY BUILDING</text>
+  
+  <!-- Right side terminal box -->
+  <rect x="580" y="80" width="270" height="140" rx="6" fill="#080c14" stroke="#1a2a3a" stroke-width="1"/>
+  <rect x="580" y="80" width="270" height="22" rx="6" fill="#0d1520"/>
+  <rect x="580" y="96" width="270" height="6" fill="#0d1520"/>
+  <text x="595" y="95" font-family="'Courier New', monospace" font-size="9" fill="#3a5a6a">terminal / profile.readme</text>
+  
+  <text x="598" y="125" font-family="'Courier New', monospace" font-size="12" fill="#00d4aa">&gt; hello, world_</text>
+  <text x="598" y="145" font-family="'Courier New', monospace" font-size="11" fill="#4a6a7a">&gt; location: India 🇮🇳</text>
+  <text x="598" y="165" font-family="'Courier New', monospace" font-size="11" fill="#4a6a7a">&gt; build / hack / deploy</text>
+  <text x="598" y="185" font-family="'Courier New', monospace" font-size="11" fill="#4a6a7a">&gt; orgs: HackPack Club</text>
+  <text x="598" y="205" font-family="'Courier New', monospace" font-size="11" fill="#00d4aa">█</text>
+  
+  <!-- Bottom accent line -->
+  <rect x="30" y="365" width="840" height="2" fill="url(#accent)" opacity="0.6" rx="1"/>
+  
+  <!-- Bottom label -->
+  <text x="610" y="355" font-family="'Courier New', monospace" font-size="9" fill="#2a4a5a" letter-spacing="1">THE.GLASS // PERSONAL INTERFACE</text>
+</svg>

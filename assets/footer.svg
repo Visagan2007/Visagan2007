@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="80" viewBox="0 0 900 80">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00d4aa" />
+      <stop offset="50%" style="stop-color:#00b4d8" />
+      <stop offset="100%" style="stop-color:#7c3aed" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="80" fill="url(#bg)" rx="10"/>
+  <rect x="30" y="15" width="840" height="50" rx="6" fill="#080c14" stroke="#1a2a3a" stroke-width="1"/>
+  
+  <!-- Accent line top -->
+  <rect x="30" y="15" width="840" height="2" fill="url(#accent)" opacity="0.5" rx="1"/>
+  
+  <!-- Icon -->
+  <text x="55" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#00d4aa">◆</text>
+  
+  <!-- Text -->
+  <text x="85" y="46" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#c8dce8" font-weight="800" letter-spacing="2">STAY CURIOUS. KEEP BUILDING.</text>
+  
+  <!-- Right side -->
+  <rect x="620" y="28" width="60" height="8" rx="4" fill="#1a2a3a"/>
+  <rect x="620" y="28" width="40" height="8" rx="4" fill="url(#accent)" opacity="0.4"/>
+  <rect x="690" y="28" width="40" height="8" rx="4" fill="#1a2a3a"/>
+  <rect x="690" y="28" width="28" height="8" rx="4" fill="url(#accent)" opacity="0.3"/>
+  
+  <text x="750" y="37" font-family="'Courier New', monospace" font-size="9" fill="#3a6a7a">●</text>
+  <text x="770" y="37" font-family="'Courier New', monospace" font-size="9" fill="#00d4aa" font-weight="bold">2007 / OK</text>
+  
+  <!-- Bottom text -->
+  <text x="450" y="55" font-family="'Courier New', monospace" font-size="8" fill="#2a4a5a" text-anchor="middle" letter-spacing="1">VISAGAN2007</text>
+</svg>
