@@ -1,37 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="80" viewBox="0 0 900 80">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0a0f;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#00d4aa" />
-      <stop offset="50%" style="stop-color:#00b4d8" />
-      <stop offset="100%" style="stop-color:#7c3aed" />
-    </linearGradient>
-  </defs>
-  
-  <rect width="900" height="80" fill="url(#bg)" rx="10"/>
-  <rect x="30" y="15" width="840" height="50" rx="6" fill="#080c14" stroke="#1a2a3a" stroke-width="1"/>
-  
-  <!-- Accent line top -->
-  <rect x="30" y="15" width="840" height="2" fill="url(#accent)" opacity="0.5" rx="1"/>
-  
-  <!-- Icon -->
-  <text x="55" y="48" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#00d4aa">◆</text>
-  
-  <!-- Text -->
-  <text x="85" y="46" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#c8dce8" font-weight="800" letter-spacing="2">STAY CURIOUS. KEEP BUILDING.</text>
-  
-  <!-- Right side -->
-  <rect x="620" y="28" width="60" height="8" rx="4" fill="#1a2a3a"/>
-  <rect x="620" y="28" width="40" height="8" rx="4" fill="url(#accent)" opacity="0.4"/>
-  <rect x="690" y="28" width="40" height="8" rx="4" fill="#1a2a3a"/>
-  <rect x="690" y="28" width="28" height="8" rx="4" fill="url(#accent)" opacity="0.3"/>
-  
-  <text x="750" y="37" font-family="'Courier New', monospace" font-size="9" fill="#3a6a7a">●</text>
-  <text x="770" y="37" font-family="'Courier New', monospace" font-size="9" fill="#00d4aa" font-weight="bold">2007 / OK</text>
-  
-  <!-- Bottom text -->
-  <text x="450" y="55" font-family="'Courier New', monospace" font-size="8" fill="#2a4a5a" text-anchor="middle" letter-spacing="1">VISAGAN2007</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img">
+<title>Stay curious. Keep building.</title>
+<defs><filter id="b" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="36"/></filter><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".66"/><stop offset="1" stop-color="#fff" stop-opacity=".18"/></linearGradient><pattern id="d" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#000" fill-opacity=".16"/></pattern></defs>
+<rect width="1200" height="260" fill="#22D3EE"/><rect width="1200" height="260" fill="url(#d)"/><circle cx="120" cy="240" r="150" fill="#FFE23D" filter="url(#b)"/><circle cx="1060" cy="40" r="160" fill="#FF4D8D" filter="url(#b)"/><circle cx="640" cy="260" r="130" fill="#8B5CF6" filter="url(#b)"/><rect x="1130" y="48" width="12" height="170" fill="#000000"/><rect x="82" y="206" width="1048" height="12" fill="#000000"/><rect x="70" y="36" width="1060" height="170" fill="url(#g)" stroke="#000000" stroke-width="4"/><rect x="78" y="44" width="1044" height="154" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"/><text x="112" y="130" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="48" font-weight="900" letter-spacing="-1" fill="#000000">Stay curious. Keep building.</text><text x="112" y="176" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#000000">&gt; system.exit(0)</text><g transform="rotate(-4 965.0 145.0)"><rect x="856" y="124" width="230" height="54" fill="#000000"/><rect x="850" y="118" width="230" height="54" fill="#34F5B0" stroke="#000000" stroke-width="4"/><text x="965.0" y="145.0" dy=".35em" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#000000">goodbye, world_</text></g><rect x="4" y="4" width="1192" height="252" fill="none" stroke="#000000" stroke-width="8"/>
 </svg>

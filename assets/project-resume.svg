@@ -1,50 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="440" height="320" viewBox="0 0 440 320">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0a0e15;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#0d1117;stop-opacity:1" />
-    </linearGradient>
-    <linearGradient id="glass" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#0d1825;stop-opacity:0.7" />
-      <stop offset="100%" style="stop-color:#0a1218;stop-opacity:0.4" />
-    </linearGradient>
-    <filter id="blur1">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="25" />
-    </filter>
-  </defs>
-  
-  <rect width="440" height="320" fill="url(#bg)" rx="10"/>
-  <circle cx="350" cy="100" r="60" fill="#7c3aed" opacity="0.04" filter="url(#blur1)"/>
-  
-  <rect x="12" y="12" width="416" height="296" rx="8" fill="url(#glass)" stroke="#1a3040" stroke-width="1.5"/>
-  
-  <rect x="12" y="12" width="416" height="28" rx="8" fill="#0a1218" opacity="0.9"/>
-  <rect x="12" y="32" width="416" height="8" fill="#0a1218" opacity="0.9"/>
-  <text x="28" y="31" font-family="'Courier New', monospace" font-size="9" fill="#7c3aed" font-weight="bold">✦ PROJECT_02.exe</text>
-  
-  <rect x="370" y="22" width="14" height="14" rx="2" fill="none" stroke="#2a4a5a" stroke-width="1"/>
-  <text x="374" y="33" font-family="'Courier New', monospace" font-size="10" fill="#2a4a5a">−</text>
-  <rect x="390" y="22" width="14" height="14" rx="2" fill="none" stroke="#2a4a5a" stroke-width="1"/>
-  <rect x="410" y="22" width="14" height="14" rx="2" fill="none" stroke="#ff5f57" stroke-width="1"/>
-  <text x="413" y="33" font-family="'Courier New', monospace" font-size="10" fill="#ff5f57">×</text>
-  
-  <text x="32" y="65" font-family="'Courier New', monospace" font-size="9" fill="#5a8a9a" font-weight="bold" letter-spacing="1">AI · ANALYSIS · WEB APP</text>
-  
-  <text x="32" y="105" font-family="'Segoe UI', Arial, sans-serif" font-size="32" fill="#e0f0f8" font-weight="900" letter-spacing="-0.5">RESUME</text>
-  <text x="32" y="135" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#8ab0c8" font-weight="600">Skill Analyser</text>
-  
-  <text x="340" y="120" font-family="'Segoe UI', Arial, sans-serif" font-size="50" fill="#7c3aed" opacity="0.3">📄</text>
-  
-  <text x="32" y="170" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8aa0b0">Parses resumes, extracts skills</text>
-  <text x="32" y="188" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#8aa0b0">&amp; analyzes against job descriptions.</text>
-  <text x="32" y="210" font-family="'Courier New', monospace" font-size="11" fill="#5a7a8a">Identify gaps &amp; improvements.</text>
-  
-  <rect x="32" y="235" width="90" height="24" rx="4" fill="none" stroke="#7c3aed" stroke-width="1.5"/>
-  <text x="40" y="251" font-family="'Courier New', monospace" font-size="10" fill="#7c3aed">JavaScript</text>
-  <rect x="132" y="235" width="50" height="24" rx="4" fill="none" stroke="#00b4d8" stroke-width="1.5"/>
-  <text x="147" y="251" font-family="'Courier New', monospace" font-size="10" fill="#00b4d8">NLP</text>
-  
-  <line x1="32" y1="277" x2="408" y2="277" stroke="#1a2a3a" stroke-width="0.5"/>
-  <text x="32" y="297" font-family="'Courier New', monospace" font-size="8" fill="#3a5a6a">PARSE → EXTRACT → ANALYZE</text>
-  <text x="340" y="297" font-family="'Courier New', monospace" font-size="9" fill="#7c3aed" font-weight="bold">OPEN REPO ↗</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="290" viewBox="0 0 500 290" role="img">
+<title>Resume Skill Analyser</title>
+<defs><filter id="b" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="36"/></filter><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".66"/><stop offset="1" stop-color="#fff" stop-opacity=".18"/></linearGradient><pattern id="d" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#000" fill-opacity=".16"/></pattern></defs>
+<rect x="16" y="16" width="478" height="268" fill="#000000"/><clipPath id="c"><rect x="6" y="6" width="478" height="268"/></clipPath><rect x="6" y="6" width="478" height="268" fill="#FF4D8D"/><g clip-path="url(#c)"><rect x="6" y="6" width="478" height="268" fill="url(#d)"/><circle cx="60" cy="250" r="110" fill="#8B5CF6" filter="url(#b)"/><circle cx="410" cy="60" r="120" fill="#FF4D8D" filter="url(#b)"/><circle cx="250.0" cy="280" r="100" fill="#FFE23D" filter="url(#b)"/></g><rect x="6" y="6" width="478" height="268" fill="none" stroke="#000000" stroke-width="4"/><rect x="466" y="74" width="8" height="186" fill="#000000"/><rect x="32" y="252" width="434" height="8" fill="#000000"/><rect x="24" y="66" width="442" height="186" fill="url(#g)" stroke="#000000" stroke-width="4"/><rect x="32" y="74" width="426" height="170" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"/><g transform="rotate(-2 76.0 37.0)"><rect x="29" y="25" width="104" height="34" fill="#000000"/><rect x="24" y="20" width="104" height="34" fill="#000000" stroke="#000000" stroke-width="4"/><text x="76.0" y="37.0" dy=".35em" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">Web app</text></g><text x="46" y="108" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="900" fill="#000000">Resume Skill Analyser</text><text x="46" y="142" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="16" font-weight="700" fill="#000000">Parses resumes, pulls out skills and</text><text x="46" y="165" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="16" font-weight="700" fill="#000000">experience, and checks them against a job</text><text x="46" y="188" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="16" font-weight="700" fill="#000000">description to show strengths and gaps.</text><g transform="rotate(0 386.0 218.0)"><rect x="336" y="204" width="108" height="36" fill="#000000"/><rect x="332" y="200" width="108" height="36" fill="#FFE23D" stroke="#000000" stroke-width="4"/><text x="386.0" y="218.0" dy=".35em" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#000000">View repo</text></g>
 </svg>
