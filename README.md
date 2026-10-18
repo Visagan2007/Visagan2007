@@ -73,12 +73,12 @@ My projects cover hackathon tooling, AI-powered analysis, mobile apps and crypto
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Visagan2007&show_icons=true&hide_border=false&border_color=000000&border_radius=0&bg_color=FFE23D&title_color=000000&text_color=000000&icon_color=8B5CF6&ring_color=FF4D8D" width="49%" alt="Visagan's GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Visagan2007&layout=compact&langs_count=6&hide_border=false&border_color=000000&border_radius=0&bg_color=34F5B0&title_color=000000&text_color=000000" width="40%" alt="Top languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=Visagan2007&show_icons=true&hide_border=false&border_color=000000&border_radius=0&bg_color=F3F4F6&title_color=000000&text_color=000000&icon_color=2F5BFF&ring_color=2F5BFF" width="49%" alt="Visagan's GitHub stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Visagan2007&layout=compact&langs_count=6&hide_border=false&border_color=000000&border_radius=0&bg_color=E5E7EB&title_color=000000&text_color=000000" width="40%" alt="Top languages"/>
 
 <br/><br/>
 
-<img src="https://streak-stats.demolab.com/?user=Visagan2007&background=22D3EE&border=000000&stroke=000000&ring=8B5CF6&fire=FF4D8D&currStreakNum=000000&currStreakLabel=000000&sideNums=000000&sideLabels=000000&dates=000000&border_radius=0" width="60%" alt="GitHub streak"/>
+<img src="https://streak-stats.demolab.com/?user=Visagan2007&background=F3F4F6&border=000000&stroke=000000&ring=2F5BFF&fire=2F5BFF&currStreakNum=000000&currStreakLabel=000000&sideNums=000000&sideLabels=000000&dates=000000&border_radius=0" width="60%" alt="GitHub streak"/>
 
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
@@ -89,8 +89,8 @@ My projects cover hackathon tooling, AI-powered analysis, mobile apps and crypto
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-vizg.2007%40gmail.com-FF4D8D?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:vizg.2007@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-@Visagan2007-FFE23D?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)](https://github.com/Visagan2007)
+[![Email](https://img.shields.io/badge/Email-vizg.2007%40gmail.com-2F5BFF?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:vizg.2007@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-@Visagan2007-E5E7EB?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)](https://github.com/Visagan2007)
 
 <br/>
 
@@ -102,7 +102,7 @@ My projects cover hackathon tooling, AI-powered analysis, mobile apps and crypto
 
 <br/>
 
-<img src="https://img.shields.io/github/followers/Visagan2007?style=for-the-badge&label=Followers&labelColor=000000&color=22D3EE" alt="GitHub followers"/>
+<img src="https://img.shields.io/github/followers/Visagan2007?style=for-the-badge&label=Followers&labelColor=000000&color=2F5BFF" alt="GitHub followers"/>
 
 <br/><br/>
 
