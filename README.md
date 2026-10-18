@@ -2,6 +2,8 @@
 
 <img src="./assets/header.svg" width="100%" alt="Visagan G — web, mobile and low-level systems"/>
 
+<img src="./assets/ticker.svg" width="100%" alt="Scrolling marquee of silly developer jokes"/>
+
 <br/>
 
 I'm **Visagan G** (**@Visagan2007**, he/him). I build across web, mobile and low-level systems.
@@ -78,9 +80,6 @@ My projects cover hackathon tooling, AI-powered analysis, mobile apps and crypto
 
 <img src="https://streak-stats.demolab.com/?user=Visagan2007&background=22D3EE&border=000000&stroke=000000&ring=8B5CF6&fire=FF4D8D&currStreakNum=000000&currStreakLabel=000000&sideNums=000000&sideLabels=000000&dates=000000&border_radius=0" width="60%" alt="GitHub streak"/>
 
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Visagan2007&bg_color=FFE23D&color=000000&line=8B5CF6&point=FF4D8D&area=true&area_color=8B5CF6&hide_border=true&radius=0" width="95%" alt="Contribution graph"/>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
@@ -103,9 +102,11 @@ My projects cover hackathon tooling, AI-powered analysis, mobile apps and crypto
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=Visagan2007&style=for-the-badge&color=22D3EE&labelColor=000000&label=PROFILE+VIEWS&abbreviated=true" alt="Profile views"/>
+<img src="https://img.shields.io/github/followers/Visagan2007?style=for-the-badge&label=Followers&labelColor=000000&color=22D3EE" alt="GitHub followers"/>
 
 <br/><br/>
+
+<img src="./assets/ticker-2.svg" width="100%" alt="Scrolling marquee: thanks for scrolling, stay curious, keep building"/>
 
 <img src="./assets/footer.svg" width="100%" alt="Stay curious. Keep building."/>
 

@@ -1,5 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="500" height="290" viewBox="0 0 500 290" role="img">
 <title>Tour Website</title>
+<style>
+.fx{transform-box:fill-box;transform-origin:center}
+.j{transform-box:fill-box;transform-origin:left bottom}
+.s1,.s2{opacity:0}
+@media (prefers-reduced-motion:no-preference){
+.d1{animation:d1 11s ease-in-out infinite}
+.d2{animation:d2 14s ease-in-out infinite}
+.d3{animation:d3 9s ease-in-out infinite}
+.wig{animation:wig 2.4s ease-in-out infinite}
+.wig2{animation:wig 3.1s ease-in-out infinite reverse}
+.bob{animation:bob 3s ease-in-out infinite}
+.pop{animation:pop 1.6s ease-in-out infinite}
+.spin{animation:spin 9s linear infinite}
+.spinr{animation:spin 13s linear infinite reverse}
+.jelly{animation:jelly 5s ease-in-out infinite}
+.shad{animation:shad 4s ease-in-out infinite}
+.blink{animation:blink 1s steps(1) infinite}
+.shine{animation:shine 5.5s ease-in-out infinite}
+.stat{animation:stat 9s infinite}
+.tape{animation:tape 1.2s linear infinite}
+}
+@keyframes d1{0%,100%{transform:translate(0,0)}33%{transform:translate(46px,-24px)}66%{transform:translate(-34px,22px)}}
+@keyframes d2{0%,100%{transform:translate(0,0)}40%{transform:translate(-50px,18px)}75%{transform:translate(30px,-26px)}}
+@keyframes d3{0%,100%{transform:translate(0,0)}50%{transform:translate(36px,30px)}}
+@keyframes wig{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes pop{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes jelly{0%,55%,100%{transform:scale(1,1)}62%{transform:scale(1.05,.92)}69%{transform:scale(.97,1.06)}76%{transform:scale(1.02,.98)}83%{transform:scale(1,1)}}
+@keyframes shad{0%,100%{transform:translate(0,0)}33%{transform:translate(5px,3px)}66%{transform:translate(-1px,5px)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes shine{0%{transform:translateX(0)}55%,100%{transform:translateX(var(--w))}}
+@keyframes stat{0%{opacity:0}3%{opacity:1}30%{opacity:1}33%{opacity:0}100%{opacity:0}}
+@keyframes tape{to{transform:translateX(39.6px)}}
+</style>
 <defs><filter id="b" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="36"/></filter><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".66"/><stop offset="1" stop-color="#fff" stop-opacity=".18"/></linearGradient><pattern id="d" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#000" fill-opacity=".16"/></pattern></defs>
-<rect x="16" y="16" width="478" height="268" fill="#000000"/><clipPath id="c"><rect x="6" y="6" width="478" height="268"/></clipPath><rect x="6" y="6" width="478" height="268" fill="#FFE23D"/><g clip-path="url(#c)"><rect x="6" y="6" width="478" height="268" fill="url(#d)"/><circle cx="60" cy="250" r="110" fill="#8B5CF6" filter="url(#b)"/><circle cx="410" cy="60" r="120" fill="#FF4D8D" filter="url(#b)"/><circle cx="250.0" cy="280" r="100" fill="#FFE23D" filter="url(#b)"/></g><rect x="6" y="6" width="478" height="268" fill="none" stroke="#000000" stroke-width="4"/><rect x="466" y="74" width="8" height="186" fill="#000000"/><rect x="32" y="252" width="434" height="8" fill="#000000"/><rect x="24" y="66" width="442" height="186" fill="url(#g)" stroke="#000000" stroke-width="4"/><rect x="32" y="74" width="426" height="170" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"/><g transform="rotate(-2 54.5 37.0)"><rect x="29" y="25" width="61" height="34" fill="#000000"/><rect x="24" y="20" width="61" height="34" fill="#000000" stroke="#000000" stroke-width="4"/><text x="54.5" y="37.0" dy=".35em" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">Web</text></g><text x="46" y="108" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="900" fill="#000000">Tour Website</text><text x="46" y="142" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="16" font-weight="700" fill="#000000">A tour website project.</text><g transform="rotate(0 386.0 218.0)"><rect x="336" y="204" width="108" height="36" fill="#000000"/><rect x="332" y="200" width="108" height="36" fill="#FFFFFF" stroke="#000000" stroke-width="4"/><text x="386.0" y="218.0" dy=".35em" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#000000">View repo</text></g>
+<clipPath id="c"><rect x="6" y="6" width="478" height="268"/></clipPath><g class="fx bob" style="animation-delay:-2.4s"><rect x="16" y="16" width="478" height="268" fill="#000000"/><rect x="6" y="6" width="478" height="268" fill="#FFE23D"/><g clip-path="url(#c)"><rect x="6" y="6" width="478" height="268" fill="url(#d)"/><g class="d1" style="animation-delay:-0.0s"><circle cx="60" cy="250" r="110" fill="#8B5CF6" filter="url(#b)"/></g><g class="d2" style="animation-delay:-2.3s"><circle cx="410" cy="60" r="120" fill="#FF4D8D" filter="url(#b)"/></g><g class="d3" style="animation-delay:-4.6s"><circle cx="250.0" cy="280" r="100" fill="#FFE23D" filter="url(#b)"/></g></g><rect x="6" y="6" width="478" height="268" fill="none" stroke="#000000" stroke-width="4"/><rect x="466" y="74" width="8" height="186" fill="#000000"/><rect x="32" y="252" width="434" height="8" fill="#000000"/><rect x="24" y="66" width="442" height="186" fill="url(#g)" stroke="#000000" stroke-width="4"/><rect x="32" y="74" width="426" height="170" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"/><clipPath id="shc"><rect x="24" y="66" width="442" height="186"/></clipPath><g clip-path="url(#shc)"><polygon class="shine" style="--w:682px;animation-delay:2.7s" points="-66,66 -6,66 -36,252 -96,252" fill="#fff" fill-opacity=".5"/></g><g transform="rotate(-2 54.5 37.0)"><g class="fx wig" style="animation-delay:-3s"><rect x="29" y="25" width="61" height="34" fill="#000000"/><rect x="24" y="20" width="61" height="34" fill="#000000" stroke="#000000" stroke-width="4"/><text x="54.5" y="37.0" dy=".35em" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="17" font-weight="800" fill="#FFFFFF">Web</text></g></g><text x="46" y="108" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="900" fill="#000000">Tour Website</text><text x="46" y="142" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="16" font-weight="700" fill="#000000">A tour website project.</text><g transform="rotate(0 386.0 218.0)"><g class="fx pop" style="animation-delay:-1.2000000000000002s"><rect x="336" y="204" width="108" height="36" fill="#000000"/><rect x="332" y="200" width="108" height="36" fill="#FFFFFF" stroke="#000000" stroke-width="4"/><text x="386.0" y="218.0" dy=".35em" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="16" font-weight="800" fill="#000000">View repo</text></g></g><polygon class="fx spinr" points="456.0,8.0 461.6,16.9 471.3,13.0 470.6,23.4 480.7,26.0 474.0,34.0 480.7,42.0 470.6,44.6 471.3,55.0 461.6,51.1 456.0,60.0 450.4,51.1 440.7,55.0 441.4,44.6 431.3,42.0 438.0,34.0 431.3,26.0 441.4,23.4 440.7,13.0 450.4,16.9" fill="#FFFFFF" stroke="#000000" stroke-width="3" stroke-linejoin="round"/></g>
 </svg>

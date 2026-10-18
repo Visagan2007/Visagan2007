@@ -1,5 +1,40 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img">
 <title>Stay curious. Keep building.</title>
+<style>
+.fx{transform-box:fill-box;transform-origin:center}
+.j{transform-box:fill-box;transform-origin:left bottom}
+.s1,.s2{opacity:0}
+@media (prefers-reduced-motion:no-preference){
+.d1{animation:d1 11s ease-in-out infinite}
+.d2{animation:d2 14s ease-in-out infinite}
+.d3{animation:d3 9s ease-in-out infinite}
+.wig{animation:wig 2.4s ease-in-out infinite}
+.wig2{animation:wig 3.1s ease-in-out infinite reverse}
+.bob{animation:bob 3s ease-in-out infinite}
+.pop{animation:pop 1.6s ease-in-out infinite}
+.spin{animation:spin 9s linear infinite}
+.spinr{animation:spin 13s linear infinite reverse}
+.jelly{animation:jelly 5s ease-in-out infinite}
+.shad{animation:shad 4s ease-in-out infinite}
+.blink{animation:blink 1s steps(1) infinite}
+.shine{animation:shine 5.5s ease-in-out infinite}
+.stat{animation:stat 9s infinite}
+.tape{animation:tape 1.2s linear infinite}
+}
+@keyframes d1{0%,100%{transform:translate(0,0)}33%{transform:translate(46px,-24px)}66%{transform:translate(-34px,22px)}}
+@keyframes d2{0%,100%{transform:translate(0,0)}40%{transform:translate(-50px,18px)}75%{transform:translate(30px,-26px)}}
+@keyframes d3{0%,100%{transform:translate(0,0)}50%{transform:translate(36px,30px)}}
+@keyframes wig{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes pop{0%,100%{transform:scale(1)}50%{transform:scale(1.08)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes jelly{0%,55%,100%{transform:scale(1,1)}62%{transform:scale(1.05,.92)}69%{transform:scale(.97,1.06)}76%{transform:scale(1.02,.98)}83%{transform:scale(1,1)}}
+@keyframes shad{0%,100%{transform:translate(0,0)}33%{transform:translate(5px,3px)}66%{transform:translate(-1px,5px)}}
+@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+@keyframes shine{0%{transform:translateX(0)}55%,100%{transform:translateX(var(--w))}}
+@keyframes stat{0%{opacity:0}3%{opacity:1}30%{opacity:1}33%{opacity:0}100%{opacity:0}}
+@keyframes tape{to{transform:translateX(39.6px)}}
+</style>
 <defs><filter id="b" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="36"/></filter><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".66"/><stop offset="1" stop-color="#fff" stop-opacity=".18"/></linearGradient><pattern id="d" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="1.6" fill="#000" fill-opacity=".16"/></pattern></defs>
-<rect width="1200" height="260" fill="#22D3EE"/><rect width="1200" height="260" fill="url(#d)"/><circle cx="120" cy="240" r="150" fill="#FFE23D" filter="url(#b)"/><circle cx="1060" cy="40" r="160" fill="#FF4D8D" filter="url(#b)"/><circle cx="640" cy="260" r="130" fill="#8B5CF6" filter="url(#b)"/><rect x="1130" y="48" width="12" height="170" fill="#000000"/><rect x="82" y="206" width="1048" height="12" fill="#000000"/><rect x="70" y="36" width="1060" height="170" fill="url(#g)" stroke="#000000" stroke-width="4"/><rect x="78" y="44" width="1044" height="154" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"/><text x="112" y="130" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="48" font-weight="900" letter-spacing="-1" fill="#000000">Stay curious. Keep building.</text><text x="112" y="176" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#000000">&gt; system.exit(0)</text><g transform="rotate(-4 965.0 145.0)"><rect x="856" y="124" width="230" height="54" fill="#000000"/><rect x="850" y="118" width="230" height="54" fill="#34F5B0" stroke="#000000" stroke-width="4"/><text x="965.0" y="145.0" dy=".35em" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#000000">goodbye, world_</text></g><rect x="4" y="4" width="1192" height="252" fill="none" stroke="#000000" stroke-width="8"/>
+<rect width="1200" height="260" fill="#22D3EE"/><rect width="1200" height="260" fill="url(#d)"/><g class="d1" style="animation-delay:-0.0s"><circle cx="120" cy="240" r="150" fill="#FFE23D" filter="url(#b)"/></g><g class="d2" style="animation-delay:-2.3s"><circle cx="1060" cy="40" r="160" fill="#FF4D8D" filter="url(#b)"/></g><g class="d3" style="animation-delay:-4.6s"><circle cx="640" cy="260" r="130" fill="#8B5CF6" filter="url(#b)"/></g><rect x="1130" y="48" width="12" height="170" fill="#000000"/><rect x="82" y="206" width="1048" height="12" fill="#000000"/><rect x="70" y="36" width="1060" height="170" fill="url(#g)" stroke="#000000" stroke-width="4"/><rect x="78" y="44" width="1044" height="154" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="2"/><clipPath id="shf"><rect x="70" y="36" width="1060" height="170"/></clipPath><g clip-path="url(#shf)"><polygon class="shine" style="--w:1300px;animation-delay:1s" points="-20,36 40,36 10,206 -50,206" fill="#fff" fill-opacity=".5"/></g><g class="j jelly"><text x="112" y="130" font-family="'Arial Black','Helvetica Neue',Arial,sans-serif" font-size="48" font-weight="900" letter-spacing="-1" fill="#000000">Stay curious. Keep building.</text></g><text x="112" y="176" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#000000" textLength="177" lengthAdjust="spacingAndGlyphs">&gt; system.exit(0)</text><rect class="blink" x="298" y="156" width="13" height="26" fill="#000000"/><g transform="rotate(-4 965.0 145.0)"><g class="fx wig2" style="animation-delay:0s"><rect x="856" y="124" width="230" height="54" fill="#000000"/><rect x="850" y="118" width="230" height="54" fill="#34F5B0" stroke="#000000" stroke-width="4"/><text x="965.0" y="145.0" dy=".35em" text-anchor="middle" font-family="'Trebuchet MS','Segoe UI',Arial,sans-serif" font-size="24" font-weight="800" fill="#000000">goodbye, world_</text></g></g><rect x="4" y="4" width="1192" height="252" fill="none" stroke="#000000" stroke-width="8"/><polygon class="fx spin" points="1118.0,4.0 1125.2,17.0 1138.0,9.4 1137.8,24.2 1152.6,24.0 1145.0,36.8 1158.0,44.0 1145.0,51.2 1152.6,64.0 1137.8,63.8 1138.0,78.6 1125.2,71.0 1118.0,84.0 1110.8,71.0 1098.0,78.6 1098.2,63.8 1083.4,64.0 1091.0,51.2 1078.0,44.0 1091.0,36.8 1083.4,24.0 1098.2,24.2 1098.0,9.4 1110.8,17.0" fill="#FFE23D" stroke="#000000" stroke-width="4" stroke-linejoin="round"/>
 </svg>
